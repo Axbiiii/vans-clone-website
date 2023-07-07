@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vans.css" type="text/css">
+</head>
+<body>
+<div class="main body">
+
+    <div class=".header"style="border-bottom:  solid 1px #acacac;" style="color:gainsboro;">
+
+        <div class="topheader">
+
+            <label class="headline">20% OFF  SUMMER  READY  STYLES <a href="WWW.vans.com" class="shopnow red">SHOP NOW</a></label>
+        
+        </div>
+
+        <div class="container">
+
+        <div  class="Navigationitems">
+
+            
+
+                <div class="topLeftNav">
+
+
+                    <div>
+                        <img src="data:image/png;base64,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" class="logo">
+
+                   </div>
+                       <div class="topdowNav">
+
+
+                      
+                     <ul>
+                     <li>
+                       <a href="#">SHOES </a>
+                     </li>
+                     <li><a href="#" >CLOTHING<a> </li>
+                     <li> <a href="#">ACCESSORIES</a> </li>
+                     <li><a href="#">CUSTOMS</a> </li>
+                     <li><a href="#">SKATEBOARDING</a></li>
+                     <li><a href="#" style="color: darkred;">SALES</a> </li>
+                     <li><a href="#">MORE</a></li>
+                     </ul>
+                     
+                     </div>
+                    
+                </div>
+
+                        <div class="navigation">
+
+                       
+                            <ul>
+                                <li>
+                                    <a href="#">Order Status </a>
+                                </li>
+                                <li><a href="#" >Find in Store</a> </li>
+                                <li> <a href="#">Gift Cards</a> </li>
+                                <li><a href="#">Favorites (0)</a> </li>
+                                <li><a href="#">Join Vans Family</a> </li>
+                                <li><a href="#">Sign In</a></li>
+                            </ul>
+                            
+                            <div class="searchNav">
+                                <input class="searchbar" type="text" placeholder=" Search...">
+                                <p></p>
+                            </div>
+                            
+                          
+
+                         </div>
+                
+
+            </div>
+        </div>
+    </div>
+        
+
+                   
+         
+    <div class="container">  
+
+
+                <div class="content">
+
+                    <img class="offerimage" src="https://images.vans.com/is/image/VansBrand/SP23-MemorialDay-Pencil-D?$fullres$">
+
+                    <img class="offerimage2" src="vans.jpg">
+                    <img class="offerimage3" src="WhatsApp Image 2023-05-18 at 12.08.07.jpg">
+                    
+                    
+                </div>
+            </div>
+                <div class="products">
+
+                   <div class="products-headline">
+                   <h3>SHOP NEW ARRIVALS</h3>
+                   </div>
+                   <div class="products-details">
+
+                   <div class="justin">
+                    <img  src="ok.jpg">
+                    <button class="justin-Button">JUST IN</button>
+                </div>
+                    <div class="shoes">
+                        <img  src="11.jpg">
+                        <button class="shoes-Button">SHOES</button>
+                    </div>
+                    <div class="slip-on">
+                        <img    src="https://media.gq.com/photos/59498ac7165c2959e554726c/1:1/w_2500,h_2500,c_limit/vans-slip-on-alt-1.jpg">
+                        <button class="slip-on-Button">SLIP ON</button>
+                    </div>
+                    <div class="clothes">
+                        <img src="https://cf.shopee.ph/file/7bcfbf85fa39b25d4fb54a77d1572faa">
+                        <button class=clothes-Button>CLOTHES</button>
+                    </div>
+                   
+                   </div>
+
+                </div>
+
+
+
+                <div class="container"> 
+
+
+                <div class="shop">
+                    <div >
+                        <img   class="pride2023"src="WhatsApp Image 2023-05-18 at 16.44.27.jpg">
+                      
+                    </div>
+                   <div>
+                    <img  class="classic" src="byeee.jpg">
+                    
+                   </div>
+
+                </div>
+                <div class="pride-and-classic-text">
+
+                    <div>
+                        <h1 class="first-Head">PRIDE 2023</h1>
+                        <h1 class="second-Head"> TOGETHER AS OURSELVES</h1>
+
+                        <div>
+                        <button  class="shopthecollection-Button-Arrang">SHOP THE COLLECTION</button>
+                        </div>
+                       
+                    </div>
+                    <div>
+                        <div class="head-title">
+                            <h1 class="first-Head2">NEW HUES. ALWAYS CLASSIC.</h1>
+    
+                            <div>
+                            <button  class="shoptheclassic-Button-Arrang">SHOP NOW</button>
+                            </div>
+                           
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <p></p>
+                <p></p>
+                <div class="shopping-zone">
+
+
+                    <div class="shopping-zone-headline">
+                    
+                        <ul>
+                            <li ><button class="trending">TRENDING </button></li>
+                            <li class="slash">/</li>
+                            <li class="bestseller">BEST SELLERS</li>
+                        </ul>
+                    </div>
+                 <div class="cursor-line">
+                 </hr>
+                 </div>
+
+
+                </div>
+                <div   class="shopping-img">
+                <div>
+                    <img  class="shopping-img-1"  src="https://images.vans.com/is/image/Vans/VN0009Q5_448_HERO?hei=600&wid=600&qlt=80&bgc=e5e5e9">
+                    <p class="oldschoolbolt">OLD SCHOOL BOLT</p>
+                    <label class="oldschool-price">$75.00</label>
+                </div>
+                <div>
+                    <img class="shopping-img-2" src="https://images.vans.com/is/image/Vans/VN000BW3_BKC_HERO?hei=600&wid=600&qlt=80&bgc=e5e5e9">
+                    <p class="classicslipon">CLASSIC SLIP-ON 138 SIDESTRIPE</p>
+                    <label class="classicslipon-price">$70.00</label>
+                </div>
+                <div>
+                    <img  class="shopping-img-3" src="https://images.vans.com/is/image/Vans/VN0009Q5_6GL_HERO?hei=600&wid=600&qlt=80&bgc=e5e5e9">
+                    <p class="oldschoolbolt2">OLD SKOOL BOLT</p>
+                    <label class="oldschoolbolt2-price">$75.00</label>
+
+                    <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                </div>
+                
+            </div>
+               
+               
+                
+            
+
+                </div>
+                <div class="footer">
+                    <div class="footer-coloum">
+                        <div class="footer-shop">
+                            <p class="shop-headline">SHOP</p>
+                            
+                            <ul>
+                                <li>
+                                    <a href="#">Home </a>
+                                </li>
+                                <li><a href="#" >Mens</a> </li>
+                                <li> <a href="#">Womens</a> </li>
+                                <li><a href="#">Kids</a> </li>
+                                <li><a href="#">Classics</a> </li>
+                                <li><a href="#">Promontions</a></li>
+                            </ul>
+
+
+
+                        </div>
+                        <div class="footer-sports">
+                            <p class="shop-headline">SPORTS</p>
+                            
+                            <ul>
+                                <li>
+                                    <a href="#">BMX </a>
+                                </li>
+                                <li><a href="#" >Skateboarding</a> </li>
+                                <li> <a href="#">Snow</a> </li>
+                                <li><a href="#">Surf</a> </li>
+                            </ul>
+
+                        </div>
+                        <div class="footer-support">
+                            <p class="shop-headline-1">SUPPORT</p>
+                            
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#" >Order Status</a> </li>
+                                <li> <a href="#">Returns</a> </li>
+                                <li><a href="#">Way to Shop Vans</a> </li>
+                                <li><a href="#">Store Locator</a> </li>
+                                <li><a href="#">Military Discount Program</a></li>
+                                <li> <a href="#">Missing Points?</a> </li>
+                                <li><a href="#">Your Privacy Choices</a> </li>
+                                <li><a href="#">Accessibility</a> </li>
+                                
+                            </ul>
+
+                        </div>
+                        <div class="footer-company">
+                            <p class="shop-headline-1">COMPANY</p>
+                            
+                            <ul>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#" >Privacy</a> </li>
+                                <li> <a href="#">Careers</a> </li>
+                                <li><a href="#">About</a> </li>
+                                <li><a href="#">CA Supply Chains Act</a> </li>
+                                <li><a href="#">Sustainability Hub</a></li>
+                                <li> <a href="#">Checkerboard Fund</a> </li>
+                                <li><a href="#">Affiliate Programs</a> </li>
+                                <li><a href="#">Unsolicited Materials</a> </li>
+                                
+                            </ul>
+
+
+
+                        </div>
+                        <div class="footer-contact">
+                            <p class="shop-headline-1">COMPANY</p>
+                            
+                            <ul>
+                                <li><a href="#">EMAIL</a></li>
+                                <li><a href="#" >Contact us</a> </li>
+                                <li> <a href="#">ADDRESS<br>
+                                    1588 South Coast Drive Costa Mesa, CA 92626</a> </li>
+                                <li><a href="#">HOURS<br>
+                                    (Mon - Fri) 6am - 4pm PST (Sat - Sun) 6:30am - 3pm PST</a> </li>
+                                
+                                
+                            </ul>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="footer-2">
+
+
+
+
+                    <div class="bottom-footer">
+                        <div class="subscribe-storelocator">
+                            <div class="subscribe">
+                                <h1>SUBSCRIBE</h1>
+                                <h4>Receive product news and updates in your inbox.</h4>
+                                <h5>Email adress</h5>
+                                <input class="email-adress-box" type="email" placeholder="Email">
+                               
+
+
+                            </div>
+                            <div class="storelocator">
+                                <h1>STORE LOCATOR</h1>
+                                <h4> Find a Vans store near you</h4> 
+                                <button>FIND A STORE</button>
+                                    
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="logo-bottom">
+                            <img src="https://www.vans.com/content/publish/caas/v1/media/104132/data/2dc28ecd4e45a6326e0f610ef231b4b0/logo-white.svg">
+                            <label>© Vans, A VF Company</label>
+                            <a href="#">Modern Slavery Statement</a>
+                            <select>
+                            <option>USA</option>
+                            <option>Afghanistan</option>
+                            <option>Albania</option>
+                            <option>Algeria</option>
+                            <option>ArgentinaBahamas</option>
+                            <option>Bahamas</option>
+                            <option>Bangladesh</option>
+                            <option>Belgium</option>
+                            <option>Brazil</option>
+                            <option>Cambodia</option>
+                            <option>Canada</option>
+                            <option>Colombia</option>
+                            <option>Dominican Republic</option>
+                            <option>Germany</option>
+                            <option>India</option>
+                            <option>Kuwait</option>
+                            <option>Malaysia</option>
+                            <option>New Zealand</option>
+                            <option>North Korea</option>
+                            <option>Vietnam</option>
+                            <option>Zimbabwe</option>
+                        </select>
+
+
+                            
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+                
+
+            
+
+  
+
+
+            
+
+
+
+
+        
+    
+
+      
+           
+                
+        
+
+            
+           
+                
+                    
+                
+           
+              
+
+                      
+                        
+                        
+                    
+                    
+
+
+
+
+
+                    
+                    
+
+                
+        
+                 
+                      
+          
+      
+                 
+
+
+                   
+
+     
+    </div>
+   
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

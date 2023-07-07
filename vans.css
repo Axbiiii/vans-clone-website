@@ -1,0 +1,645 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainbody {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  width: 100%;
+}
+.topheader {
+  height: 40px;
+  width: 100%;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.headline {
+  color: #ffff;
+  font-size: 11px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.shopnow {
+  padding-left: 10px;
+  color: #ffff;
+}
+.red:hover {
+  color: red;
+  text-decoration: none;
+}
+.Navigationitems{
+        display: flex;
+}
+
+.navigation {
+  
+  float: right;
+  padding-left: 109px;
+}
+.navigation ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 15px;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: #737680;
+  font-size: 12px;
+}
+.navigation ul li a:hover {
+  color: #347298;
+  text-decoration: underline;
+}
+.container {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.topLeftNav {
+  display: flex;
+  align-items: end;
+  float: left;
+}
+.logo {
+  width: 127px;
+  height: 71px;
+  padding-left: 20px;
+  padding-top: 28px;
+}
+.topLeftNav {
+  text-align: left;
+  padding-top: 8px;
+  padding-left: 12px;
+}
+.topLeftNav ul {
+  margin: 0px;
+  padding-left: 7px;
+  padding-bottom: 9px;
+}
+.topLeftNav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 18px;
+}
+.topLeftNav ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 550;
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+.topLeftNav ul li  a:hover{
+ color: black;
+  text-decoration: underline;
+
+}
+.searchNav {
+  font-family: "FontAwsome";
+  float: right;
+}
+.searchbar {
+  height: 31px;
+  width: 228px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-right: 85px;
+  border-color: gray;
+}
+.content{
+  padding-top: 20px;
+}
+.offerimage{
+  padding-top: 20px;
+  width: 99%;
+}
+.offerimage2{
+  padding-top: 20px;
+  height: 690px;
+  width: 50%;
+}
+.offerimage3{
+  padding-top: 20px;
+  height: 690px;
+  width: 49%;
+}
+.products{
+
+padding-top: 40px;
+
+}
+
+.products-headline{
+
+  color: var(--c-dark-variant);
+  font-size: 28px;
+  letter-spacing: 0.67px;
+  line-height: var(--leading-11);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 790;
+}
+.products-details{
+  display: flex;
+padding: 20px;
+  
+
+
+}
+
+.justin{
+  position: relative;
+  padding: 22px;
+  height: 404px;
+  width: 323px;
+}
+.justin img{
+  
+  height: 404px;
+  width: 323px;
+}
+.justin  .justin-Button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color:black;
+  font-size: 17px;
+  padding: 16px 33px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.justin  .justin-Button:hover{
+  color: darkred;
+  border-color:darkred;
+}
+.shoes{
+  position: relative;
+  padding: 22px;
+  height: 404px;
+  width: 323px;
+}
+.shoes img{
+  
+  height: 404px;
+  width: 323px;
+}
+.shoes .shoes-Button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color:black;
+  font-size: 17px;
+  padding: 16px 33px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.shoes .shoes-Button:hover{
+  color: darkred;
+  border-color:darkred;
+}
+.slip-on{
+  position: relative;
+  padding: 22px;
+  height: 404px;
+  width: 323px;
+}
+.slip-on img{
+  
+  height: 404px;
+  width: 323px;
+}
+.slip-on   .slip-on-Button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color:black;
+  font-size: 17px;
+  padding: 16px 33px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.slip-on .slip-on-Button:hover{
+  color: darkred;
+  border-color:darkred;
+}
+.clothes{
+  position: relative;
+  padding: 22px;
+  height: 404px;
+  width: 323px;
+}
+.clothes img{
+  
+  height: 404px;
+  width: 323px;
+}
+.clothes .clothes-Button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color:black;
+  font-size: 17px;
+  padding: 16px 33px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.clothes .clothes-Button:hover{
+  color: darkred;
+  border-color:darkred;
+}
+.shop{
+  display: flex;
+}
+.pride2023{
+  height: 500px;
+  width: 140%;
+  padding-top: 40px;
+}
+.classic{
+  height: 500px;
+    width: 104%;
+    padding-top: 40px;
+    padding-left: 200px;
+
+}
+.pride-and-classic-text{
+   
+
+  display: flex;
+  margin-top: 30px;
+
+}
+.first-Head{
+  font-size: 40px;
+  font-weight: 600;
+  padding-left: 233px;
+  margin: 0%;
+}
+.second-Head{
+  font-size: 40px;
+  font-weight: 600;
+  padding-left: 74px;
+  margin: 0%;
+}
+.shopthecollection{
+  padding-left: 248px;
+  
+
+}
+.shopthecollection-Button-Arrang{
+
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 231px;
+  height: 60px;
+  width: 224px;
+
+ 
+}
+.shopthecollection-Button-Arrang:hover{
+
+  color: red;
+  border-color: red;
+}
+.head-title{
+
+  padding-left: 190px;
+}
+.first-Head2{
+  font-size: 37px;
+  padding-left: 10px;
+  margin: 0;
+
+}
+.shoptheclassic-Button-Arrang{
+  color: black;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 215px;
+  height: 60px;
+  width: 145px;
+
+}
+.shoptheclassic-Button-Arrang:hover{
+  color: RED;
+  border-color: red;
+}
+.shopping-zone{
+  display: flex;
+  padding-top: 50px;
+
+}
+.shopping-zone-headline {
+  
+  float: right;
+}
+.shopping-zone-headline ul li {
+  list-style: none;
+  display: inline-block;
+ 
+}
+.trending{
+  font-size: 20px;
+    font-weight: bold;
+    border-radius: 64%;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.slash{
+  padding-left: 60px;
+  font-size: 34px;
+}
+.bestseller{
+  padding-left: 44px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #91929a;
+}
+.cursor-line{
+  height: 1px;
+  width: 65%;
+  background-color: #000;
+  align-items: center;
+  float: right;
+  margin-top: 40px;
+  margin-left: 63px;
+}
+.shopping-img{
+  display: flex;
+  padding-top: 30px;
+  margin-left: 20px;
+
+
+}
+.shopping-img-1{
+height: 370px;
+width: 370px;
+}
+.shopping-img-2{
+  height: 370px;
+width: 370px;
+padding-left: 20px;
+}
+.shopping-img-3{
+  height: 370px;
+  width: 370px;
+  padding-left: 20px;
+
+}
+.oldschoolbolt{
+  color: #64686b;
+  line-height: 1.6;
+  margin-bottom: 0;
+    font-weight: 400;
+    font-size: .875rem;
+    font-family: helvetica,"Arial Narrow",arial,sans-serif;
+}
+.oldschool-pricea{
+  margin: 0;
+}
+.classicslipon{
+  color: #64686b;
+  line-height: 1.6;
+  margin-bottom: 0;
+    font-weight: 400;
+    font-size: .875rem;
+    font-family: helvetica,"Arial Narrow",arial,sans-serif;
+    padding-left: 22px;
+}
+.classicslipon-price{
+  padding-left: 22px;
+}
+.oldschoolbolt2{
+  color: #64686b;
+  line-height: 1.6;
+  margin-bottom: 0;
+    font-weight: 400;
+    font-size: .875rem;
+    font-family: helvetica,"Arial Narrow",arial,sans-serif;
+    padding-left: 22px;
+}
+.oldschoolbolt2-price{
+  padding-left: 22px;
+}
+.footer{
+
+  background-color:#1c1c1c;
+
+}
+.footer-coloum{
+  margin-top: 0px;
+  margin-left: 200px;
+  margin-right: 50px;
+  padding-top: 10px;
+  display: flex;
+}
+.footer-shop{
+  color: #ffff;
+}
+.shop-headline{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0%;
+}
+.footer-shop ul li {
+  list-style: none;
+  color: #ffff;
+  margin: 22%;
+    font-size: 15px;
+    margin-left: -40%;
+
+
+}
+.footer-shop ul li a{
+  text-decoration: none;
+  color: #ffff;
+  
+  
+}
+.footer-shop ul li a:hover{
+  color: red;
+}
+.footer-sports{
+  color: #ffff;
+  margin-left: 60px;
+}
+.shop-headline{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0%;
+}
+.footer-sports ul li {
+  list-style: none;
+  color: #ffff;
+  margin: 22%;
+    font-size: 15px;
+    margin-left: -40%;
+
+
+}
+.footer-sports ul li a{
+  text-decoration: none;
+  color: #ffff;
+  
+  
+}
+.footer-sports ul li a:hover{
+  color: red;
+}
+.footer-support{
+  color: #ffff;
+  margin-left: 60px;
+}
+.shop-headline-1{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0%;
+}
+.footer-support ul li {
+  list-style: none;
+  color: #ffff;
+  margin: 20px;
+    font-size: 15px;
+    margin-left: -20%;
+
+
+}
+.footer-support ul li a{
+  text-decoration: none;
+  color: #ffff;
+  
+  
+}
+.footer-support ul li a:hover{
+  color: red;
+}
+.footer-company{
+  color: #ffff;
+  margin-left: 10px;
+}
+.shop-headline-1{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0%;
+}
+.footer-company ul li {
+  list-style: none;
+  color: #ffff;
+  margin: 20px;
+    font-size: 15px;
+    margin-left: -20%;
+
+
+}
+.footer-company ul li a{
+  text-decoration: none;
+  color: #ffff;
+  
+  
+}
+.footer-company ul li a:hover{
+  color: red;
+}
+.footer-contact{
+  color: #ffff;
+  margin-left: 30px;
+}
+.shop-headline-1{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0%;
+}
+.footer-contact ul li {
+  list-style: none;
+  color: #ffff;
+  margin: 20px;
+    font-size: 15px;
+    margin-left: -8%;
+
+
+}
+.footer-contact ul li a{
+  text-decoration: none;
+  color: #ffff;
+  
+  
+}
+.footer-contact ul li a:hover{
+  color: red;
+}
+.bottom-footer{
+  padding-left: 245px;
+  padding-right: 20px;
+  padding-top: 190px;
+}
+.subscribe-storelocator{
+  display:flex;
+  
+  color: #ffff;
+
+}
+.subscribe h1{
+  font-size: 28px;
+}
+.email-adress-box{
+  padding-top: 10px;
+}
+.email-adress-box{
+  height: 30px;
+  width: 333px;
+}
+.footer-2{
+  background-color:#1c1c1c;
+  margin: 0%;
+}
+.storelocator{
+  padding-left: 174px;
+}
+.storelocator button{
+  background-color:darkred;
+  color:#ffff;
+  height: 60px;
+  width: 280px;
+  font-size: 18px;
+border-color: #000;
+}
+.logo-bottom{
+  padding-left: 320px;
+  padding-top: 156px;
+  padding-right: 00px;
+  color: #ffff;
+}
+.logo-bottom label{
+  padding-left: 50px;
+}
+.logo-bottom a{
+  
+  padding-left: 50px;
+  color: #ffff;
+
+}
+.logo-bottom select{
+  margin-left: 85px;
+  padding-left: 30px;
+  height: 34px;
+  width: 98px;
+}
